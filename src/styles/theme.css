@@ -1,0 +1,11 @@
+:root {
+  --color-cream: #fff7f0;
+  --color-pink: #f3a6c8;
+  --color-purple: #9878e8;
+  --color-text: #302630;
+  --color-secondary: #746673;
+  --color-white: #ffffff;
+  --color-border: #eadfe7;
+  --shadow-soft: 0 10px 30px rgba(48, 38, 48, 0.06);
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}

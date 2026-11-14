@@ -1,0 +1,45 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.env
+.env.*
+
+# Dependencies
+node_modules/
+backend/vendor/
+
+# Build files
+dist/
+backend/public/build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Laravel runtime files
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+
+# Uploaded files and storage link
+backend/storage/app/public/*
+!backend/storage/app/public/.gitignore
+backend/public/storage
+
+# System files
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+*.timestamp-*.mjs
+backend/safaa_portfolio
+public/images/safaa.jpg

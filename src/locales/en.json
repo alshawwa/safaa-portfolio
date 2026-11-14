@@ -1,0 +1,25 @@
+{
+  "brand": "Safaa",
+  "meta": {
+    "title": "Safaa — Graphic Designer"
+  },
+  "nav": {
+    "home": "Home",
+    "works": "Works",
+    "services": "My Services",
+    "skills": "Skills",
+    "contact": "Contact me",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "language": {
+    "en": "EN",
+    "ar": "AR",
+    "switchTo": "Switch language"
+  },
+  "preview": {
+    "eyebrow": "Foundation preview",
+    "title": "Design system, language, and navigation are ready.",
+    "body": "Hero, About, Portfolio, Skills, Testimonials, Contact, and Footer will be added after this review."
+  }
+}

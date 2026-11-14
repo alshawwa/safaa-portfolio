@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Service extends Model
+{
+    protected $fillable = [
+        'title',
+        'title_ar',
+        'title_en',
+        'slug',
+        'description',
+        'description_ar',
+        'description_en',
+        'icon',
+        'sort_order',
+        'is_active',
+    ];
+
+    protected $casts = [
+        'sort_order' => 'integer',
+        'is_active' => 'boolean',
+    ];
+}
