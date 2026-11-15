@@ -11,7 +11,7 @@ import { MessagesManager } from "@/components/admin/MessagesManager";
 import { SocialLinksManager } from "@/components/admin/SocialLinksManager";
 import { SettingsManager } from "@/components/admin/SettingsManager";
 
-const API_URL = "http://127.0.0.1:8000/api";
+const API_URL = "/api";
 
 export function Dashboard() {
     const [activeSection, setActiveSection] = useState("overview");

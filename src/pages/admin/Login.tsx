@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "@/context/LanguageContext";
 
-const API_URL = "http://127.0.0.1:8000/api";
+const API_URL = "/api";
 
 export function Login() {
     const navigate = useNavigate();

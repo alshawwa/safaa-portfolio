@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
-const API_URL = 'http://127.0.0.1:8000/api/profile';
-const STORAGE_URL = 'http://127.0.0.1:8000/storage/';
+const API_URL = '/api/profile';
+const STORAGE_URL = '/storage/';
 
 type ProfileData = {
     name: string;

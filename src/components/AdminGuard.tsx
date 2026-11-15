@@ -1,7 +1,7 @@
 import { Navigate, Outlet } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = '/api';
 
 export function AdminGuard() {
     const [status, setStatus] = useState<
