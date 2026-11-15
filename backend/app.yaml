@@ -1,0 +1,4 @@
+kind: wasmer.io/App.v0
+name: safaa-api
+owner: alshawwa
+package: .
