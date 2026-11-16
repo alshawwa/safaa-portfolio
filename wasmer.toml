@@ -1,4 +1,5 @@
-﻿[dependencies]
+﻿
+[dependencies]
 "php/php" = "=8.3.4"
 
 [fs]
@@ -10,4 +11,5 @@ module = "php/php:php"
 runner = "wasi"
 
 [command.annotations.wasi]
-main-args = ["-t", "/app/public", "-S", "localhost:8080"]
+main-args = ["-S", "0.0.0.0:8080", "-t", "/app/public"]
+

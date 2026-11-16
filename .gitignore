@@ -1,12 +1,26 @@
-node_modules
-dist
-dist-ssr
-*.local
-.DS_Store
-.vscode/*
-!.vscode/extensions.json
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
 .env
-.env.*
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/auth.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
 
 # Dependencies
 node_modules/
@@ -39,7 +53,4 @@ backend/public/storage
 # System files
 .DS_Store
 Thumbs.db
-*.tsbuildinfo
-*.timestamp-*.mjs
-backend/safaa_portfolio
-public/images/safaa.jpg
+/backend/
